@@ -5,6 +5,11 @@ exports[`should render Header correctly 1`] = `
   <h1>
     Expensify
   </h1>
+  <button
+    onClick={[Function]}
+  >
+    Log Out
+  </button>
   <div>
     <[object Object]
       activeClassName="is-active"
