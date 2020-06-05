@@ -1,18 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render ExpenseListItem with an expense 1`] = `
-<div>
-  <h3>
-    <[object Object]
-      to="/edit/3"
+<[object Object]
+  className="list-item"
+  to="/edit/3"
+>
+  <div>
+    <h3
+      className="list-item__title"
     >
       Credit Card
-    </[object Object]>
-  </h3>
-  <p>
+    </h3>
+    <span
+      className="list-item__sub-title"
+    >
+      December12 28th, 1969
+    </span>
+  </div>
+  <h3
+    className="list-item__data"
+  >
     $45.00
-     -
-    December12 28th, 1969
-  </p>
-</div>
+  </h3>
+</[object Object]>
 `;
